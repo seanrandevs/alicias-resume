@@ -1,0 +1,24 @@
+header{
+    margin: 0 auto;
+  }
+  section{
+    margin: 1em;
+    padding: 1em;
+  }
+
+header {
+    padding: 2em;
+    text-align: center;
+    background-image: url('../images/bg.jpg');
+    background-size: cover; 
+    background-position: fixed;
+    color: white;
+  }
+  header img {
+    border-radius: 50%;
+    max-width: 175px;
+  }
+  header section {
+    margin: 0 auto;
+    max-width: 640px;
+  }

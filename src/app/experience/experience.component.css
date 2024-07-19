@@ -1,0 +1,49 @@
+section{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+section:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+ul.job-description li:before{
+    content: "✔";
+    padding-right: 0.5em;
+    color: #509e98;
+  }
+  
+  footer {
+   padding: 1em 1.5em;
+   background: #A7B8BF;
+   color: white;
+   text-align: right;
+  }
+  
+  .job-descrip {
+    display: none;
+  }
+  .job {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .active .job-descrip {
+    display: block;
+    padding-bottom: 3rem;
+    transition: all 0.2s ease-in;
+  }
+
+  @media only screen and (max-width: 768px) {
+    section {
+        margin: 0 1rem;
+      }
+    footer {
+      text-align: center;
+    }
+  }
