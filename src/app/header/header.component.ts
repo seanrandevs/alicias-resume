@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [FontAwesomeModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  imageUrl = '../images/profile-pic.jpg';
+  faLinkedinIn = faLinkedinIn;
 }
