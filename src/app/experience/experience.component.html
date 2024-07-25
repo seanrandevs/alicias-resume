@@ -29,7 +29,7 @@
       </div>
       <strong>Click each job to reveal further detail</strong>
        <hr>
-      <div class="other-jobs">
+      <div class="other-jobs" (click)="toggleDescription('job1')">
         <div class="job">
           <div class='job-title'>
             <span>08.2018 - 04.2019 </span> <strong>Lafayette Internal Medicine Clinic,
@@ -37,8 +37,8 @@
           </div>
           <fa-icon [icon]="faChevronDown"></fa-icon>
           </div>
-            <div class="job-descrip">
-              <div>
+              <div class="job-descrip" id="job1">
+                <div>
                 <ul class="job-description">
                   <li>Documented patient medical information, case histories and insurance details to facilitate smooth
                     appointments and payment processing.</li>
@@ -58,7 +58,7 @@
             </div>
           </div>
        <hr>
-      <div class="other-jobs">
+      <div class="other-jobs" (click)="toggleDescription('job2')">
         <div class="job">
           <div class='job-title'>
             <span>05.2011 - 05.2018 </span> <strong>Iberia Medical Center,
@@ -66,8 +66,8 @@
           </div>
           <fa-icon [icon]="faChevronDown"></fa-icon>
           </div>
-            <div class="job-descrip">
-              <div>
+              <div class="job-descrip" id="job2">
+                <div>
                 <ul class="job-description">
                   <li>Call insurances to determine patient eligibility or costs, and bill and code patients daily
                     appointments.</li>

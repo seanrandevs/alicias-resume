@@ -27,18 +27,15 @@ ul.job-description li:before{
   footer p {
     font-size: 0.8rem;
   }
-  
-  .job-descrip {
-    display: none;
-  }
   .job {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .active {
-    display: block;
-    padding-bottom: 3rem;
-    transition: all 0.2s ease-in;
+  .job-descrip {
+    display: none;
+    padding-bottom: 1rem;
   }
+  
+  
