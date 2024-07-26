@@ -25,7 +25,3 @@ export class ExperienceComponent {
   }
 }
 
-
-// toggleActive(): void {
-  //   this.isActive = !this.isActive; // Toggle the active state
-  // }
